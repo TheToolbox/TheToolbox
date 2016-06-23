@@ -1,0 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans+Mono';
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+body {
+    font-family: 'Share Tech Mono','Consolas','sans-serif';
+    background-color: black;
+    color: white;
+}
+
+.bash .prompt time {
+    color: #D92
+}
+
+.bash .prompt .directory {
+    color: #E4C
+}
+
+.bash .prompt {
+    color: #4E4
+}
+
+a, link {
+    color: inherit;
+}
+
+.command a {
+    text-decoration: none; 
+}

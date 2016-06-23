@@ -1,3 +1,4 @@
+<% if (!index){ %>
 <% if (post.prev || post.next){ %>
 <nav id="article-nav">
   <% if (post.prev){ %>
@@ -19,4 +20,5 @@
     </a>
   <% } %>
 </nav>
+<% } %>
 <% } %>
