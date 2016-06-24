@@ -2,7 +2,7 @@
 @import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
 
 body {
-    font-family: 'Share Tech Mono','Consolas','sans-serif';
+    font-family: 'Share Tech Mono','Consolas','monospace';
     background-color: black;
     color: white;
 }
@@ -25,4 +25,8 @@ a, link {
 
 .command a {
     text-decoration: none; 
+}
+
+pre, xmp, plaintext, listing {
+    font-family: 'Share Tech Mono', 'Consolas', 'monospace'
 }
